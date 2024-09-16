@@ -484,6 +484,7 @@ footer a {
 }
 
 
+
 @media only screen and (max-width: 480px){
 
     #nav-list{
@@ -507,14 +508,14 @@ footer a {
     #hero-text{
       padding-top: 20px;
       padding-left: 27px;
-      font-size: 95px;
+      font-size: 80px;
     }
 
     #hero-button{
       display: block;
       margin: 50px auto;
       height: 70px;
-      width: 300px;
+      width: 275px;
 
     }
 
@@ -605,7 +606,7 @@ footer a {
     }
 
     #loc-map{
-      width:90vw;
+      width:85vw;
       height:450px;
       margin: 0 auto;
     }
