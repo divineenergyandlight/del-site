@@ -43,8 +43,27 @@ header p {
   width: 150px;
 }
 
+#burger-menu-button{
+  float: right;
+  margin-right: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform .1s ease-in-out;
 
+}
 
+#burger-menu-button:hover{
+  transform:scale(1.2);
+}
+
+.menu-line{
+  border: 2px solid white;
+  border-radius: 5px;
+  display: block;
+  width: 45px;
+  margin: 7px;
+
+}
 
 
 #nav-logo{
@@ -499,9 +518,9 @@ footer a {
       left: -40px;
     }
 
-    #nav-logo{
+    #burger-menu-button{
       margin-right: 17px;
-      margin-top: 25px;
+      margin-top: 20px;
 
     }
 
