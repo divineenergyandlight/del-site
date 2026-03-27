@@ -1,0 +1,33 @@
+
+
+
+# Log files
+*.log
+# Temporary files
+*.tmp
+*~
+
+# Object files and compiled executables
+*.o
+*.so
+*.pyc
+vmlinux*
+
+# Build output directories
+/build/
+/dist/
+/out/
+
+# System files
+.DS_Store
+.directory
+Thumbs.db
+
+# Environment variables/secrets
+.env
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
